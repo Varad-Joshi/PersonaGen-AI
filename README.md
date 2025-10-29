@@ -80,20 +80,22 @@ This project is designed to run directly in the browser — no backend setup req
 ### 🪜 Step 1: Download the Project Files
 
 Clone or download the project folder containing all files:
-
+/
 ├── components/
-│ ├── Header.tsx
-│ ├── Icons.tsx
-│ ├── PersonaDisplay.tsx
-│ ├── PersonaForm.tsx
-│ └── TypingAnimation.tsx
+│ ├── Header.tsx # The main page header.
+│ ├── Icons.tsx # SVG icons for download buttons.
+│ ├── PersonaDisplay.tsx # Displays the generated persona and avatar.
+│ ├── PersonaForm.tsx # The form for user inputs.
+│ └── TypingAnimation.tsx # The live typing effect component.
+│
 ├── services/
-│ └── geminiService.ts
-├── App.tsx
-├── index.html
-├── index.tsx
-├── metadata.json
-└── types.ts
+│ └── geminiService.ts # Handles all communication with the Gemini API.
+│
+├── App.tsx # Main application component, manages state.
+├── index.html # The entry point of the application.
+├── index.tsx # Mounts the React app to the DOM.
+├── metadata.json # Application metadata.
+└── types.ts # TypeScript type definitions.
 
 
 ---
