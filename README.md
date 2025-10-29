@@ -103,9 +103,11 @@ This setup ensures proper module handling and CORS-free development.
 1. **Install Dependencies**
    ```bash
    npm install  ```
+   ```
+   ```
 2 . ```bash
    npm run dev ```
-
+```
 ---
 
 ## 🧠 Project Summary
